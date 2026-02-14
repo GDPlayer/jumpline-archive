@@ -2,7 +2,7 @@ import { Fragment, jsxDEV } from "react/jsx-dev-runtime";
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { WebsimSocket, useQuery } from "@websim/use-query";
-import "/JS/game.js";
+import "./JS/game.js";
 console.log("HELLO FROM APP.JSX");
 const params = new URLSearchParams(window.location.search);
 console.log(params)
