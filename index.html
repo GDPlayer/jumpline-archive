@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- HTML Meta Tags -->
+    <title>Jumpline Community Edition</title>
+    <meta name="description"
+        content="Jumpline Community Edition is an unofficial revival of the first Jumpline on websim, adding new features and QoL stuff along the way, created by GDPlayer10">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://jumpplus.pages.dev/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Jumpline Community Edition">
+    <meta property="og:description"
+        content="Jumpline Community Edition is an unofficial revival of the first Jumpline on websim, adding new features and QoL stuff along the way, created by GDPlayer10">
+    <meta property="og:image" content="YOUR_IMAGE_URL_HERE">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="jumpplus.pages.dev">
+    <meta property="twitter:url" content="https://jumpplus.pages.dev/">
+    <meta name="twitter:title" content="Jumpline Community Edition">
+    <meta name="twitter:description"
+        content="Jumpline Community Edition is an unofficial revival of the first Jumpline on websim, adding new features and QoL stuff along the way, created by GDPlayer10">
+    <meta name="twitter:image" content="YOUR_IMAGE_URL_HERE">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+    <!-- NOTE: You selected a new image. Please upload it to your server and replace "YOUR_IMAGE_URL_HERE" with the actual URL. -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JumpLine</title>
+    <title>Jumpline Community Edition</title>
     <link rel="icon" href="ASSET/deadhead.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="CSS/styles_global.css">
-    <link rel="stylesheet" href="CSS/styles_inputs.css">    
+    <link rel="stylesheet" href="CSS/styles_inputs.css">
     <link rel="stylesheet" href="CSS/styles_shared.css">
     <link rel="stylesheet" href="CSS/styles_hud.css">
     <link rel="stylesheet" href="CSS/styles_loading.css">
@@ -26,12 +52,13 @@
     <link rel="stylesheet" href="CSS/styles_mobile.css">
     <link rel="stylesheet" href="CSS/styles_admin.css">
 </head>
+
 <body>
     <div id="loadingScreen">
         <div id="loadingStatus">Initializing...</div>
         <div id="progressBarContainer">
             <div id="progressBar">
-                <img src="ASSET/normal.svg" id="loadingIcon" alt="loading indicator"/>
+                <img src="ASSET/normal.svg" id="loadingIcon" alt="loading indicator" />
             </div>
         </div>
         <div id="loadingPercentage">0%</div>
@@ -88,7 +115,9 @@
             "./perlinNoise.js": "./JS/perlinNoise.js"
         }
     }
-    </script><script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/babel" data-type="module" src="./app.jsx"></script>
 </body>
+
 </html>
