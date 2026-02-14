@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JumpLine</title>
+    <link rel="icon" href="ASSET/deadhead.svg" type="image/svg+xml">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="CSS/styles_global.css">
+    <link rel="stylesheet" href="CSS/styles_inputs.css">    
+    <link rel="stylesheet" href="CSS/styles_shared.css">
+    <link rel="stylesheet" href="CSS/styles_hud.css">
+    <link rel="stylesheet" href="CSS/styles_loading.css">
+    <link rel="stylesheet" href="CSS/styles_mainmenu.css">
+    <link rel="stylesheet" href="CSS/styles_settings.css">
+    <link rel="stylesheet" href="CSS/styles_shop.css">
+    <link rel="stylesheet" href="CSS/styles_gameover.css">
+    <link rel="stylesheet" href="CSS/styles_leaderboard.css">
+    <link rel="stylesheet" href="CSS/styles_howto.css">
+    <link rel="stylesheet" href="CSS/styles_pause.css">
+    <link rel="stylesheet" href="CSS/styles_deathoptions.css">
+    <link rel="stylesheet" href="CSS/styles_mobile.css">
+    <link rel="stylesheet" href="CSS/styles_admin.css">
+</head>
+<body>
+    <div id="loadingScreen">
+        <div id="loadingStatus">Initializing...</div>
+        <div id="progressBarContainer">
+            <div id="progressBar">
+                <img src="ASSET/normal.svg" id="loadingIcon" alt="loading indicator"/>
+            </div>
+        </div>
+        <div id="loadingPercentage">0%</div>
+        <div id="detailedStatus"></div>
+        <div id="loadingTips">Tip: Jump on enemies to defeat them!</div>
+    </div>
+
+    <!-- Game canvas sits at the bottom -->
+    <canvas id="gameCanvas"></canvas>
+
+    <!-- UI Elements will be injected here by dom_loader.js -->
+
+    <script type="importmap">
+    {
+        "imports": {
+            "react": "https://esm.sh/react@18.2.0?dev",
+            "react/jsx-dev-runtime": "https://esm.sh/react@18.2.0/jsx-dev-runtime",
+            "react-dom/client": "https://esm.sh/react-dom@18.2.0/client?dev",
+            "@websim/use-query": "./websim-polyfill/websim-polyfill.js",
+            "@websim/websim-socket": "./websim-polyfill/websim-polyfill.js",
+            "./game.js": "./JS/game.js",
+            "./dom_loader.js": "./JS/dom_loader.js",
+            "./ui_templates_menus.js": "./JS/ui_templates_menus.js",
+            "./ui_templates_popups.js": "./JS/ui_templates_popups.js",
+            "./ui_templates_hud.js": "./JS/ui_templates_hud.js",
+            "./gameController.js": "./JS/gameController.js",
+            "./gameLifecycle.js": "./JS/gameLifecycle.js",
+            "./gameInput.js": "./JS/gameInput.js",
+            "./powerupSystem.js": "./JS/powerupSystem.js",
+            "./shopBridge.js": "./JS/shopBridge.js",
+            "./cameraController.js": "./JS/cameraController.js",
+            "./dataManager.js": "./JS/dataManager.js",
+            "./assets.js": "./JS/assets.js",
+            "./audio.js": "./JS/audio.js",
+            "./audioEffects.js": "./JS/audioEffects.js",
+            "./constants.js": "./JS/constants.js",
+            "./controls.js": "./JS/controls.js",
+            "./easter_egg.js": "./JS/easter_egg.js",
+            "./particles.js": "./JS/particles.js",
+            "./player.js": "./JS/player.js",
+            "./playerCollision.js": "./JS/playerCollision.js",
+            "./playerRender.js": "./JS/playerRender.js",
+            "./menuManager.js": "./JS/menuManager.js",
+            "./shopUI.js": "./JS/shopUI.js",
+            "./popupManager.js": "./JS/popupManager.js",
+            "./hudManager.js": "./JS/hudManager.js",
+            "./world.js": "./JS/world.js",
+            "./worldGen.js": "./JS/worldGen.js",
+            "./worldCollision.js": "./JS/worldCollision.js",
+            "./worldRender.js": "./JS/worldRender.js",
+            "./enemyUpdate.js": "./JS/enemyUpdate.js",
+            "./visualizer.js": "./JS/visualizer.js",
+            "./splashScreen.js": "./JS/splashScreen.js",
+            "./perlinNoise.js": "./JS/perlinNoise.js"
+        }
+    }
+    </script><script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" data-type="module" src="/app.jsx"></script>
+</body>
+</html>

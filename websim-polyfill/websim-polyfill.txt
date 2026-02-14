@@ -1,0 +1,33 @@
+websim-polyfill is licensed under the MIT license
+websim-polyfill is created by gdplayer1035
+
+features such as AI-related features are stubbed out as to let websim projects utilizing this run offline
+
+usage:
+<script src="websim-polyfill.js"></script>
+
+provided stubs:
+websim.getCurrentUser -> { id: 'u1', username: 'Rick Astley' }
+websim.getCreator -> { id: 'c1', username: 'websim_polyfill' }
+websim.getCurrentProject -> { id: 'p1', title: 'websim_polyfill' })
+websim.chat -> {}
+websim.imageGen -> {}
+websim.textToSpeech -> {}
+websim.upload -> blob: URI
+websim.postComment -> { success: true }
+websim.addEventListener 
+websim.removeEventListener
+
+miscellany:
+WebsimSocket
+WebsimSocket.initialize
+WebsimSocket.updatePresence
+WebsimSocket.updateRoomState
+WebsimSocket.send
+WebsimSocket.requestPresenceUpdate
+WebsimSocket.subscribePresence
+WebsimSocket.subscribeRoomState
+WebsimSocket.subscribePresenceUpdateRequests
+WebsimSocket.collection
+
+(c) 2026
