@@ -2,7 +2,7 @@
 
 ![el jumplijne](ASSET/normal.svg)
 
-Jumpline Community Edition is an unofficial revival of the first Jumpline on websim, adding new features and QoL stuff along the way
+Jumpline Community Edition is an unofficial revival of the first Jumpline from websim, adding new features and QoL stuff along the way
 
 ## Play
 You can play the current build of Jumpline Community Edition on:
