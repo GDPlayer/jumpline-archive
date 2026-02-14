@@ -31,6 +31,7 @@ export class Player {
         this.onGround = false;
         this.direction = 1;
         this.jumpSquash = 0;
+        this.runningSpeed = PLAYER_DEFAULTS.RUNNING_SPEED;
 
         this.speed = PLAYER_DEFAULTS.SPEED;
         this.jumpPower = PLAYER_DEFAULTS.JUMP_POWER;
@@ -261,13 +262,13 @@ export class Player {
         
         // Horizontal movement
         if (keys['a'] || keys['arrowleft']) {
-            if (this.velocityX > -this.speed * (this.isRunning ? PLAYER_DEFAULTS.RUNNING_SPEED : 1)) {
+            if (this.velocityX > -(this.isRunning ? this.runningSpeed : this.speed)) {
                 console.log("HI FROM PLAYER.UPDATE LINE 262 moving left")
                 this.velocityX -= PLAYER_DEFAULTS.ACCELERATION * timeScale * dt;
             }
             this.direction = -1;
         } else if (keys['d'] || keys['arrowright']) {
-            if (this.velocityX < this.speed * (this.isRunning ? PLAYER_DEFAULTS.RUNNING_SPEED : 1)) {
+            if (this.velocityX < (this.isRunning ? this.runningSpeed : this.speed)) {
                 console.log("HI FROM PLAYER.UPDATE LINE 268 moving right")
                 this.velocityX += PLAYER_DEFAULTS.ACCELERATION * timeScale * dt;
             }

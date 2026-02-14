@@ -154,119 +154,15 @@ export const PALETTES = {
 
 export const SONGS = {
     default_song: {
+        name: 'Jump',
+        price: 0,
+        path: 'Happy Pixelated Beat - Faster.mp3'
+    },
+    lined_song: {
         name: 'Quartz Quadrant',
         price: 0,
         path: 'Quartz Quadrant Present.wav'
     },
-    lined_song: {
-        name: 'Lined',
-        price: 30,
-        path: 'Speedy Pixelated Beat.mp3'
-    },
-    bread_song: {
-        name: 'Bread',
-        price: 40,
-        path: 'Super Playful Goofy Bread Beat.mp3'
-    },
-    bread_trap_song: {
-        name: 'Bread Trap',
-        price: 60,
-        path: 'Goofy Bread Trap Remix.mp3'
-    },
-    rush_song: {
-        name: 'Rush',
-        price: 50,
-        path: 'Boss Rush_ Ramp-Up Battle.mp3'
-    },
-    remix_song: {
-        name: 'Jump - Remix',
-        price: 75,
-        path: 'OH YEAH - Glitchy Chopped Remix.mp3'
-    },
-    glitch_song: {
-        name: 'Glitch',
-        price: 100,
-        path: 'Pixel Glitch Groove.mp3'
-    },
-    i_see_you_song: {
-        name: '1 SEE Y0U',
-        price: 50,
-        path: 'I See YOU (Glitch Club Mix).mp3'
-    },
-    chase_song: {
-        name: 'Chase',
-        price: 80,
-        path: 'READY OR NOT - c00lkidd Chase Theme _ Forsaken OST.mp3'
-    },
-    dreamcore_song: {
-        name: 'Dreamcore',
-        price: 320,
-        path: 'Dreamcore Angelic Instrumental.mp3'
-    },
-    solo_preview_song: {
-        name: 'BFDIA 22 song',
-        price: 85,
-        path: 'Exclusive preview track from my new Solo Album.mp3'
-    },
-    pixel_loop_song: {
-        name: 'Pixel Loop',
-        price: 70,
-        path: 'Pixel Runner Ambient Loop.mp3'
-    },
-    ameriusa_drop_song: {
-        name: 'Ameriusa Drop',
-        price: 95,
-        path: 'THIS IS AMERIUSA (Explosion Drop).mp3'
-    },
-    // --- New songs ---
-    burrito_song: {
-        name: "Burrito Dude",
-        price: 55,
-        path: "Where's My Burrito, Dude_.mp3"
-    },
-    verycool_song: {
-        name: "Very Cool",
-        price: 65,
-        path: "verycoolsong.mp3"
-    },
-    glitch_drive_song: {
-        name: "Glitch Drive",
-        price: 120,
-        path: "Glitch Drive (Instrumental).mp3"
-    },
-    // --- Added song ---
-    hammer_song: {
-        name: "Hammer of Justice",
-        price: 150,
-        path: "58. Hammer of Justice (DELTARUNE Chapter 34 Soundtrack) - Toby Fox.mp3",
-        hidden: true
-    },
-    black_knife_song: {
-        name: "Black Knife",
-        price: 200,
-        path: "30. Black Knife (DELTARUNE Chapter 34 Soundtrack) - Toby Fox.mp3"
-    },
-    // --- Newly added tracks ---
-    server_down_song: {
-        name: "Websim Down",
-        price: 110,
-        path: "Server Down.mp3"
-    },
-    chill_until_rage_song: {
-        name: "Jumpline - The Musical",
-        price: 130,
-        path: "Jumpline, Chill Until Rage.mp3"
-    },
-    happy_views_song: {
-        name: "Happy 3771 Views",
-        price: 140,
-        path: "Happy 3771 Views.mp3"
-    },
-    cubey_song: {
-        name: "Cubey Song (Joke)",
-        price: 78,
-        path: "Cubey Song (Joke Version).mp3"
-    }
 };
 
 export const DEATH_EFFECTS = {

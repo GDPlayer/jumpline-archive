@@ -42,7 +42,8 @@ export class AudioManager {
             // Sonic CD
             'MUSIC/Quartz Quadrant Present.wav', // ingame
             'MUSIC/Tidal Tempest Good Future.wav', // shop
-            'MUSIC/Wacky Workbench Good Future.wav' // main menu
+            'MUSIC/Wacky Workbench Good Future.wav', // main menu
+            'MUSIC/Happy Pixelated Beat - Faster.mp3'
         ]
         this.loadedSoundFiles = new Set();
     }
