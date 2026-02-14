@@ -96,12 +96,12 @@
     background-color: var(--corner-icon-color, black);
 }
 .menu-corner-button .settings-icon {
-    -webkit-mask: url('/ASSET/costume1.svg') center / contain no-repeat;
-            mask: url('/ASSET/costume1.svg') center / contain no-repeat;
+    -webkit-mask: url('./ASSET/costume1.svg') center / contain no-repeat;
+            mask: url('./ASSET/costume1.svg') center / contain no-repeat;
 }
 .menu-corner-button .shop-icon {
-    -webkit-mask: url('/ASSET/costume2.svg') center / contain no-repeat;
-            mask: url('/ASSET/costume2.svg') center / contain no-repeat;
+    -webkit-mask: url('./ASSET/costume2.svg') center / contain no-repeat;
+            mask: url('./ASSET/costume2.svg') center / contain no-repeat;
 }
 
 #settingsButton {

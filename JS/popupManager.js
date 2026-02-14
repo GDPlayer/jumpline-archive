@@ -1,9 +1,9 @@
 import { PALETTES, SONGS } from './constants.js';
 import { ShopUI } from './shopUI.js';
 
-const DEFAULT_FAVICON = 'ASSET/deadhead.svg';
-const SHOP_FAVICON = 'ASSET/costume2.svg';
-const SETTINGS_FAVICON = 'ASSET/costume1.svg';
+const DEFAULT_FAVICON = './ASSET/deadhead.svg';
+const SHOP_FAVICON = './ASSET/costume2.svg';
+const SETTINGS_FAVICON = './ASSET/costume1.svg';
 
 function setFavicon(url) {
     let link = document.querySelector("link[rel~='icon']");
