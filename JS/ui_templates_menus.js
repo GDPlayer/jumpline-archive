@@ -1,11 +1,11 @@
 export const MENUS_HTML = `
     <div id="splashScreen" style="position: fixed; inset: 0; z-index: 999; display: none; align-items: center; justify-content: center; background-color: white; opacity: 0; transition: opacity 0.5s ease-in-out, background-color 0.5s ease-in-out;">
-        <img id="splashLogo" src="ASSET/costume1 (1).svg" alt="logo" style="width: 150px; height: 150px; opacity: 0; transform: scale(0.8); transition: opacity 0.7s ease-in-out, transform 0.7s ease-in-out;"/>
+        <img id="splashLogo" src="ASSET/splash2(1).svg" alt="logo" style="width: 40%; opacity: 0; transform: scale(0.8); transition: opacity 0.7s ease-in-out, transform 0.7s ease-in-out;"/>
     </div>
 
     <div id="mainMenu">
         <canvas id="menuCanvas"></canvas>
-        <h1>JumpLine</h1>
+        <img class="bob" src="ASSET/logo.png" style="max-width: 70%;" alt="title">
 
         <button id="playButton" class="main-menu-button">PLAY</button>
         <br>

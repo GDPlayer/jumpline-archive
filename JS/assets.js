@@ -11,7 +11,8 @@ export class AssetLoader {
             'costume3.svg',
             'pluto.png',
             'costume1 (1).svg',
-            'YOUR DEAD.png'
+            'YOUR DEAD.png',
+            'logo.png'
         ];
     }
 

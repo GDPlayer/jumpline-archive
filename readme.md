@@ -1,13 +1,12 @@
-# Jumpline Revival
+# Jumpline Community Edition
 
 ![el jumplijne](ASSET/normal.svg)
 
-Jumpline Revival is an unofficial revival of the first Jumpline on websim, adding new features and QoL stuff along the way
+Jumpline Community Edition is an unofficial revival of the first Jumpline on websim, adding new features and QoL stuff along the way
 
 ## Play
-You can play the current build of Jumpline Revival on:
+You can play the current build of Jumpline Community Edition on:
 - [jumpplus.pages.dev](https://jumpplus.pages.dev)
-- [github pages](https://gdplayer.github.io/jumpline-archive)
 
 ## Implemented as of now:
 - Websim polyfill (to get game running at all)

@@ -45,7 +45,7 @@
     font-family: 'Space Mono', monospace;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 55% 45% 52% 48% / 30% 30% 70% 70%;
+    border-radius: 50% 50% 50% 50% / 34% 38% 45% 44% ;
     transition: background 0.2s, transform 0.1s ease;
     position: relative;
     z-index: 10;
@@ -66,15 +66,8 @@
     font-family: 'Space Mono', monospace;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 55% 45% 52% 48% / 30% 30% 70% 70%;
+    border-radius: 50% 50% 50% 50% / 34% 38% 45% 44% ;
     transition: background 0.2s;
-}
-
-#leaderboardButton {
-    font-size: 1.5rem;
-    padding: 10px 40px;
-    margin-top: 20px;
-    border-radius: 45% 55% 62% 38% / 51% 53% 47% 49%;
 }
 
 .menu-corner-button {
@@ -96,12 +89,12 @@
     background-color: var(--corner-icon-color, black);
 }
 .menu-corner-button .settings-icon {
-    -webkit-mask: url('./ASSET/costume1.svg') center / contain no-repeat;
-            mask: url('./ASSET/costume1.svg') center / contain no-repeat;
+    -webkit-mask: url('../ASSET/costume1.svg') center / contain no-repeat;
+            mask: url('../ASSET/costume1.svg') center / contain no-repeat;
 }
 .menu-corner-button .shop-icon {
-    -webkit-mask: url('./ASSET/costume2.svg') center / contain no-repeat;
-            mask: url('./ASSET/costume2.svg') center / contain no-repeat;
+    -webkit-mask: url('../ASSET/costume2.svg') center / contain no-repeat;
+            mask: url('../ASSET/costume2.svg') center / contain no-repeat;
 }
 
 #settingsButton {
