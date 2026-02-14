@@ -47,7 +47,7 @@ export class AssetLoader {
                     if (onProgress) onProgress(`Error: ${filename}`);
                     checkDone(); // Mark as done to prevent getting stuck
                 };
-                img.src = `/ASSET/${filename}`;
+                img.src = `./ASSET/${filename}`;
             });
         });
     }
